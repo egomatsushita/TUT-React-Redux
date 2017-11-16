@@ -27,7 +27,10 @@ import App from './components/app.js';
 // 18. in the users-list.js, instead of exporting UsersList object, connect mapStateToProps to UserList
 //     now, the UsersList component is aware of application store
 // 19. create a function createListItems that will return a <li> of each user in the /containers/users-list.js
-
+// 20. create /actions/index.js file and directory
+//     the entire function (selectUser) is called action creator to return an object called action
+//     with two fields: type and payload
+// 21. create matchDispatchToProps function in users-list.js to bind selectUser function (event hadler)
 
 const store = createStore(allReducers); 
 
