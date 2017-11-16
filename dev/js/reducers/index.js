@@ -3,4 +3,6 @@ import UserReducer from './reducer-users'; // import the array of users returned
 
 const allReducers = combineReducers({
   users: UserReducer
-})
+});
+
+export default allReducers;
