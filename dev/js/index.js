@@ -26,6 +26,8 @@ import App from './components/app.js';
 //     it takes a peace of application store and passes it to UsersList component as a property
 // 18. in the users-list.js, instead of exporting UsersList object, connect mapStateToProps to UserList
 //     now, the UsersList component is aware of application store
+// 19. create a function createListItems that will return a <li> of each user in the /containers/users-list.js
+
 
 const store = createStore(allReducers); 
 
