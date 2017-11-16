@@ -30,7 +30,12 @@ import App from './components/app.js';
 // 20. create /actions/index.js file and directory
 //     the entire function (selectUser) is called action creator to return an object called action
 //     with two fields: type and payload
-// 21. create matchDispatchToProps function in users-list.js to bind selectUser function (event hadler)
+// 21. create matchDispatchToProps function in users-list.js to bind selectUser function (event handler)
+//     add matchDispatchToProps as another argument of connect method
+//     in <li> add onClick property with the value of this.props.selectUser(user)
+// 22. add /reducers/reducer-active-user.js to return an active user
+//     in /reducers/index.js import ActiveUserReducer from /reducers/reducer-active-user.js
+//     in allReducers object add a property activeUser with the value of ActiveUserReducer
 
 const store = createStore(allReducers); 
 
