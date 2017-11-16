@@ -1,3 +1,7 @@
+# Credit
+A React-Redux tutorial from TheNewBoston youtube channel
+https://github.com/buckyroberts/React-Redux-Boilerplate
+
 ![](http://i.imgur.com/DUiL9yn.png)
 
 # React/Sass/Redux Boilerplate
