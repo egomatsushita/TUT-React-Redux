@@ -6,7 +6,7 @@ export default function() { // will return an array of users
       last: "Doe",
       age: 71,
       description: "John is a React developer",
-      thumbnail: "http://i.imgur.com/7yUvePI.jpg"
+      thumbnail: "https://cdn.pixabay.com/photo/2017/11/13/15/07/winter-2945906__340.jpg"
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default function() { // will return an array of users
       last: "Stones",
       age: 51,
       description: "Sara loves the Packers, cheese, and turtles",
-      thumbnail: "http://i.imgur.com/52xRlm8.png"
+      thumbnail: "https://cdn.pixabay.com/photo/2017/11/12/13/47/forest-2942492__340.jpg"
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export default function() { // will return an array of users
       last: "Hill",
       age: 76,
       description: "Susan likes her dog but it is really annoying",
-      thumbnail: "http://i.imgur.com/4EMtxHB.png"
+      thumbnail: "https://cdn.pixabay.com/photo/2017/11/13/13/34/christmas-card-2945633__340.jpg"
     }
   ]
 }

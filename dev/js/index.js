@@ -36,6 +36,7 @@ import App from './components/app.js';
 // 22. add /reducers/reducer-active-user.js to return an active user
 //     in /reducers/index.js import ActiveUserReducer from /reducers/reducer-active-user.js
 //     in allReducers object add a property activeUser with the value of ActiveUserReducer
+// 23. add /containers/user-details.js
 
 const store = createStore(allReducers); 
 
